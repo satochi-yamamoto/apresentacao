@@ -48,6 +48,25 @@ section {
     margin-top: 1rem;
 }
 
+.projeto ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.projeto ul li {
+    margin: 0.5rem 0;
+}
+
+.projeto ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.projeto ul li a:hover {
+    text-decoration: underline;
+}
+
 footer {
     background: #333;
     color: #fff;
