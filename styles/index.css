@@ -108,6 +108,11 @@ main {
 .blue {
     background: #421abc;
 }
+.black {
+    background: #000;
+}
+
+
 footer {
     background: #fff;
     padding: 20px;
