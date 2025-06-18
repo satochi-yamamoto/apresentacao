@@ -28,43 +28,28 @@
             <div class="contact-info">
                 <h2>Contato</h2>
                 <p>Vamos conversar sobre suas ideias!</p>
-                <p>
-                    <strong>Email:</strong>
-                    <a href="mailto:contato@satochi.com.br">contato@satochi.com.br</a>
-                </p>
+                <p><strong>Email:</strong> contato@satochi.com.br</p>
             </div>
             <div class="contact-form">
-                <form action="enviar-mensagem.php" method="post" aria-label="Formulário de contato">
-                    <fieldset>
-                        <legend>Envie sua mensagem</legend>
-                        <div class="form-group">
-                            <label for="nome">Nome *</label>
-                            <input type="text" id="nome" name="nome" required minlength="2" maxlength="50" placeholder="Seu nome">
-                            <label for="sobrenome">Sobrenome</label>
-                            <input type="text" id="sobrenome" name="sobrenome" maxlength="50" placeholder="Seu sobrenome">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email *</label>
-                            <input type="email" id="email" name="email" required placeholder="seu@email.com">
-                            <label for="assunto">Assunto</label>
-                            <input type="text" id="assunto" name="assunto" maxlength="100" placeholder="Assunto da mensagem">
-                        </div>
-                        <div class="form-group">
-                            <label for="mensagem">Mensagem *</label>
-                            <textarea id="mensagem" name="mensagem" required minlength="10" maxlength="1000" placeholder="Digite sua mensagem"></textarea>
-                        </div>
-                        <button type="submit" class="btn yellow">Enviar</button>
-                    </fieldset>
-                    <div id="form-feedback" aria-live="polite"></div>
+                <form action="enviar-mensagem.php" method="post">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" required>
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" id="sobrenome" name="sobrenome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="assunto">Assunto</label>
+                        <input type="text" id="assunto" name="assunto">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn yellow">Enviar</button>
                 </form>
             </div>
         </section>
     </main>
-
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2023 Alexandre Satochi Yamamoto. Todos os direitos reservados.</p>
-        </div>
-    </footer>
-</body>
-</html>
